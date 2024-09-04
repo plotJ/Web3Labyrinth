@@ -1,6 +1,4 @@
-Here's a beautiful README.md for your Labrinto project:
 
-```markdown
 # Labrinto: A Web3 Maze Adventure
 
 ![Labrinto Game](labrinto.png)
@@ -69,4 +67,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ⭐️ If you like Labrinto, give it a star!
 
-```
