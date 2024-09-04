@@ -75,4 +75,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ⭐️ If you like Labrinto, give it a star!
 
-
