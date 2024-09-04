@@ -71,6 +71,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - **Transaction Completion Notices**: Implement notifications to inform users when transactions are pending and when they have successfully completed.
 - **Deposit Credits Function**: Introduce a feature that allows players to deposit credits, enabling them to play multiple times without needing to re-enter funds each time.
 - **Custom Wagering Amounts**: Allow players to wager custom amounts instead of a fixed entry fee, providing more flexibility in gameplay.
+- **NFT Minting**: Give players an NFT for winning.
 
 ⭐️ If you like Labrinto, give it a star!
 
