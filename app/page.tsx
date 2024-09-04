@@ -18,7 +18,7 @@ const Frontend: React.FC = () => {
     const [gameScore, setGameScore] = useState<number>(0);
     const [transactionStatus, setTransactionStatus] = useState<string>('');
     const canvasRef = useRef<HTMLCanvasElement | null>(null);
-    const [timeLeft, setTimeLeft] = useState<number>(TIME_LIMIT); // Initialize with the time limit
+    const [timeLeft, setTimeLeft] = useState<number>(TIME_LIMIT);
 
     const contractAddress = '0xdbde4c6a6a7b7c55309242d8e3e1c86fbf0cf2e5';
 
@@ -179,6 +179,13 @@ const Frontend: React.FC = () => {
                             The game requires a wallet to be connected to the Sepolia testnet in order to load. Once you've connected your wallet and paid the .05 Sepolia ETH fee, the game will appear. A transaction will appear after you've lost to let the blockchain know you've lost. Or you can hit refresh to play again.
                         </p>
                     </div>
+                    {/* GitHub Button */}
+                    <a href="https://github.com/plotJ/Web3Labyrinth" target="_blank" rel="noopener noreferrer">
+                        <Button className="w-full rounded-lg bg-secondary px-4 py-2 text-secondary-foreground shadow-sm transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring">
+                            <GitHubIcon className="h-5 w-5 inline-block mr-2" />
+                            View on GitHub
+                        </Button>
+                    </a>
                 </div>
             </aside>
             <main className="flex flex-col gap-8 p-8">
