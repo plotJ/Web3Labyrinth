@@ -5,7 +5,8 @@ import { Button } from "@/components/ui/button";
 import { ethers } from 'ethers';
 import LabyrinthGameABI from '@/contracts/LabyrinthGame.json';
 import { ArrowUpIcon, ArrowDownIcon, ArrowLeftIcon, ArrowRightIcon, ClockIcon, TrophyIcon } from '@heroicons/react/24/solid';
-import { Labyrinth, CANVAS_WIDTH, CANVAS_HEIGHT, TIME_LIMIT } from '@/components/Labyrinth'; // Import TIME_LIMIT
+import { Labyrinth, CANVAS_WIDTH, CANVAS_HEIGHT, TIME_LIMIT } from '@/components/Labyrinth'; 
+
 
 const Frontend: React.FC = () => {
     const [isWalletConnected, setIsWalletConnected] = useState(false);
@@ -181,10 +182,7 @@ const Frontend: React.FC = () => {
                     </div>
                     {/* GitHub Button */}
                     <a href="https://github.com/plotJ/Web3Labyrinth" target="_blank" rel="noopener noreferrer">
-                        <Button className="w-full rounded-lg bg-secondary px-4 py-2 text-secondary-foreground shadow-sm transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring">
-                            <GitHubIcon className="h-5 w-5 inline-block mr-2" />
                             View on GitHub
-                        </Button>
                     </a>
                 </div>
             </aside>
