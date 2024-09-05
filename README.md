@@ -4,7 +4,7 @@
 ![Labrinto Game](labrinto.png)
 
 ## 🎮 Play Now!
-[Launch Labrinto](https://labrito-3ukdb1to3-plotjs-projects.vercel.app/)
+[Launch Labrinto](https://labrito.vercel.app/)
 
 ## 🌟 Introduction
 
